@@ -1,0 +1,33 @@
+.searchBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    border-color: lightgray;
+    border-style: solid;
+    padding: 1rem;
+    flex-wrap: wrap;
+}
+
+.searchBar div {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.searchBar div div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#weatherDisplay {
+    margin: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: aqua;
+    border-color: lightgray;
+    border-style: solid;
+    padding: 1rem;
+}
